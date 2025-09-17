@@ -1,0 +1,57 @@
+body {
+    min-width: 900px;
+}
+
+.header {
+    text-align: center;
+    height: 100px;
+    width: auto; 
+    background: #3838a8;
+background: linear-gradient(90deg,rgb(100, 100, 183) 0%, rgba(101, 212, 235, 1) 50%, rgb(100, 100, 183) 78%);
+    
+}
+
+#site_name {
+    min-width: 400px;
+    font-size: 50px;
+    color:whitesmoke;
+    text-align: center;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bone {
+    height: 40px;
+    width: auto;
+    
+    position: relative;
+    left: 30px;
+}
+
+.nav-bar {
+    display:flexbox;
+    background-color: ivory;
+    border: 3px solid rgb(126, 162, 229);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.link {
+    margin:50px;
+    color: rgb(100, 100, 183);
+}
+
+.link:hover {
+    color:cornflowerblue;
+}
+    
+
+.separator {
+    background-image: url(../images/pawprints.png);
+    height:50px;
+    width: auto;
+    background-size: contain;
+}
