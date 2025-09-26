@@ -1,0 +1,39 @@
+///ASSIGNMENT 2.2///
+
+You are going to add 2 new pages to your project:
+
+A page to input data
+A page to view the data in a table
+
+Input Data Page
+
+/Call the page write-data.html
+/Style the page using a CSS file name write-data.css
+/Store the JavaScript in a file named write-data.js
+/Should have a title indicating it is a page for input
+/Should have the same 4 links as on the landing page
+/Should have an input box and label for each data element your website is storing
+/Should have 2 buttons:
+Submit - for now it will just activate an alert that says "Submit button was pressed"
+Clear - clears all the input box fields
+
+View Data Page
+
+/Call the page view-data.html
+/Style the page using a CSS file named view-data.css
+/Store the JavaScript in a file named view-data.js
+/Should have a title indicating in is a page for viewing the data
+/Should have the same 4 links as on the landing page
+Create a table that will display the data from your database
+For now, your database will be a JSON object
+Create a JSON object that holds at least 5 records of your data
+On load, populate your table with that data
+
+Links
+
+/Update the href in your links so that it opens the appropriate page:
+/Home link - should bring the user to the landing page
+/Enter Data link - should bring the user to the write-data page
+/View Data link - should bring the user to the view-data page
+
+/// ///

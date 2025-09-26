@@ -1,0 +1,84 @@
+#bgimg {
+    display: flexbox;
+    background-image: url(../images/dogbg.png);
+    background-size:cover;
+    height:550px;
+    width: auto;
+    opacity: 50%;
+    border: 3px solid rgb(100, 100, 183);
+    border-radius: 5px;
+}
+
+#enternewbox {
+    display: flexbox;
+    background-color: white;
+    border: 3px solid rgb(100, 100, 183);
+    border-radius: 3%;
+    height:auto;
+    width: 25%;
+    min-width: 300px;
+    position: absolute;
+    top:28%;
+    left: 35%; 
+}
+
+#newres{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(100, 100, 183);
+}
+
+.form-group {
+    padding-top: 10px;
+    padding-left: 10;
+    padding-bottom: 15px;
+    background-color: white;
+    
+}
+
+.form-label {
+    width: 10%;
+    clear: left;
+    margin-right: 1%;
+    padding-top: 6px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.form-control {
+    float: auto;
+    clear: right;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #333333;
+    border: 2px solid #ccc;
+    background-color: rgb(193, 232, 247);
+}
+
+:hover.form-control{
+    background-color: ivory;
+}
+
+
+.form-control, .form-label{
+    margin-left: 30px;
+    margin-right:30px;
+}
+
+.writebtns{
+    text-align: center;
+}
+
+button {
+    background-color: rgb(71, 131, 204);
+    color:aliceblue;
+    width: 100px;
+    margin-left: 10px;
+}
+
+:hover#submitbtn, :hover#clearbtn{
+    background-color: rgb(100, 100, 183)
+}
