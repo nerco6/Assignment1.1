@@ -14,8 +14,8 @@ Input Data Page
 /Should have the same 4 links as on the landing page
 /Should have an input box and label for each data element your website is storing
 /Should have 2 buttons:
-Submit - for now it will just activate an alert that says "Submit button was pressed"
-Clear - clears all the input box fields
+/Submit - for now it will just activate an alert that says "Submit button was pressed"
+/Clear - clears all the input box fields
 
 View Data Page
 
