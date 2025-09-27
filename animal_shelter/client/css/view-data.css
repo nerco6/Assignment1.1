@@ -1,11 +1,61 @@
 #bgimg {
     display: flexbox;
-    background-image: url(../images/dogbg.png);
+    background-image: url(../images/group.png);
     background-size:cover;
     height:550px;
     width: auto;
     opacity: 50%;
     border: 3px solid rgb(100, 100, 183);
     border-radius: 5px;
+    background-position-x: -200px;
+    background-position-y: -40px;
 
 }
+
+#tablebox {
+    display: flexbox;
+    background-color: white;
+    border: 3px solid rgb(100, 100, 183);
+    height:auto;
+    width: 80%;
+    min-width: 900px;
+    position: absolute;
+    top:42%;
+    left: 10%; 
+}
+
+    .table > thead > tr > th,
+    .table > tbody > tr > td {
+        padding: 10px 25px;
+        line-height: 1;
+        border: none;
+        vertical-align: middle;
+    }
+
+    .table thead tr th {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 52px;
+        font-size: 20px;
+        color: darkslategray;
+        text-align:center;
+    }
+
+    td {
+        color: black;
+        font-size: 16px;
+        text-align:center;
+        margin: auto;
+    }
+
+    .table > thead > tr > th {
+        background-color: 
+        rgb(100, 100, 183);
+        color:white;
+    }
+
+    tr:nth-child(even) {
+        background-color: whitesmoke;
+        border-bottom: 2px solid black;
+    }
+ 

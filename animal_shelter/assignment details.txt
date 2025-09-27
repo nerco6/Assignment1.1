@@ -24,10 +24,10 @@ View Data Page
 /Store the JavaScript in a file named view-data.js
 /Should have a title indicating in is a page for viewing the data
 /Should have the same 4 links as on the landing page
-Create a table that will display the data from your database
-For now, your database will be a JSON object
-Create a JSON object that holds at least 5 records of your data
-On load, populate your table with that data
+/Create a table that will display the data from your database
+/For now, your database will be a JSON object
+/Create a JSON object that holds at least 5 records of your data
+/On load, populate your table with that data
 
 Links
 

@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/view-data.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="js/read-data.js" async></script>
+        <script src="js/view-data.js" async></script>
     </head>
     <body>
         <main>
@@ -23,4 +23,27 @@
                 <div class="separator"></div>
             </section>
             <section class="viewDataPage">
-                <div id="bgimg"></div>
+                <div id="bgimg"></div>             
+                <div id="tablebox">
+                    <table class="table">
+                        <colgroup>
+                            <col class='col-xs-3'>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th >Name</th>
+                                <th>Species</th>
+                                <th>Breed</th>
+                                <th>Age</th>
+                                <th>Color</th>
+                                <th>Temperament</th>
+                                <th>Entry Type</th>
+                            </tr>
+                        </thead>
+                        <tbody id='animalTable'></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
