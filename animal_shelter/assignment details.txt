@@ -37,3 +37,30 @@ Links
 /View Data link - should bring the user to the view-data page
 
 /// ///
+
+//// LAB 5.2
+
+In this lab we will create a web server for the project we began.
+
+The project should have the following folder structure:
+
+root directory - contains package.json
+    server - contains app.js,  services.js, and router.js
+        server/files - contains data files
+    client - where web pages (html files) are
+        client/js - for javascript files
+        client/css - for css files
+        client/images - for image files
+And so on...
+For now the server will:
+Route the web pages to the client (router.js)
+Receive user entered data from the web page and add the data to the data file (remember append) in the server/files directory when a POST is made (services.js)
+Send the data back to the web page when a GET call is made (services.js)
+We will need to modify our table creation function so that we capture the record id.
+On the client side we will:
+POST data entered into the write-data page
+Create a table from a GET on the view-data page
+Update the hyperlinks to use the server router
+
+
+////
